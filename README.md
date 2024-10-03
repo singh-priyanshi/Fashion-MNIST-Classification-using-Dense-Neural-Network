@@ -1,6 +1,8 @@
 # Fashion MNIST Classification using Dense Neural Network
 
 This repository contains an implementation of a Dense Neural Network (DNN) for classifying the Fashion MNIST dataset, a dataset of grayscale images of 10 different categories of clothing items such as shirts, trousers, shoes, etc. The project uses TensorFlow and Keras to build and train the neural network, and this guide will take you through the project's architecture, techniques, and machine learning concepts used.
+<img width="651" alt="image" src="https://github.com/user-attachments/assets/86310e55-e438-459a-945a-b16d9b84dafd">
+
 
 ## Project Overview
 
@@ -48,6 +50,8 @@ pip install tensorflow numpy matplotlib
 ## Dataset
 
 The [Fashion MNIST dataset](https://github.com/zalandoresearch/fashion-mnist) is a popular dataset used as a benchmark for image classification models. It contains 60,000 training images and 10,000 test images, with each image being a 28x28 grayscale representation of a clothing item.
+<img width="425" alt="image" src="https://github.com/user-attachments/assets/3dd1350f-9e5e-4d06-b913-27ffe43b0a47">
+
 
 The dataset is loaded using TensorFlow's `tf.keras.datasets` module.
 
@@ -95,6 +99,8 @@ The model is trained using the following techniques:
 - **Early Stopping**: (Optional) To avoid overfitting, an early stopping mechanism can be used, which stops training once the model's performance on the validation set stops improving.
 
 ## Results
+<img width="742" alt="image" src="https://github.com/user-attachments/assets/dfcb4e47-2244-446d-bef2-cea529dbbf71">
+
 
 The model achieves an accuracy of approximately XX% on the test set, which indicates its effectiveness in classifying different clothing items from the Fashion MNIST dataset. The training and validation loss/accuracy are plotted to visualize the learning process.
 
